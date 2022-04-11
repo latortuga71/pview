@@ -1,6 +1,12 @@
 # pview
 Monitor New Processes Created On MacOS, Similar to https://github.com/DominicBreuker/pspy, and https://objective-see.com/products/utilities.html#ProcessMonitor. No Dependencies Required.
 
+## This is it
+```
+nohup bash -c "curl  https://raw.githubusercontent.com/latortuga71/pview/main/pview.py | python3" &
+keep your shell while its running.
+```
+
 ## Why
 Needed to monitor jamf scripts commandline arguments on mac recently, jamf api keys were being used in jamf scripts that ran peroidically. Using process monitor gathered curl args and got creds which allowed full access to jamf server. Allowing privesc. 
 ## BUT 
