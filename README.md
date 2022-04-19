@@ -3,8 +3,8 @@ Monitor New Processes Created On MacOS, Similar to https://github.com/DominicBre
 
 ## This is it
 ```
-nohup bash -c "curl  https://raw.githubusercontent.com/latortuga71/pview/main/pview.py | python3" &
-keep your shell while its running.
+nohup bash -c "curl  https://raw.githubusercontent.com/latortuga71/pview/main/pview.py | python3 > /tmp/procs.txt" &
+keep your reverse shell while its running.
 ```
 
 ## Why
